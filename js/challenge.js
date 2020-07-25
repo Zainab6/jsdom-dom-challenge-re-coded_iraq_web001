@@ -7,7 +7,11 @@ function stopWatch(){
   
   
   if (seconds / 60 === 1){
-    seconds = 0 
-    minutes++
+    seconds = 0 ;
+    minutes++ ;
+  }
+  
+  if (minutes / 60 === 1){
+    minutes =
   }
 }
