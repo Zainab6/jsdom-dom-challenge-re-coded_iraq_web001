@@ -7,6 +7,7 @@ function stopWatch(){
   
   
   if (seconds / 60 === 1){
-    
+    seconds = 0 
+    minutes++
   }
 }
