@@ -21,7 +21,9 @@ function stopWatch(){
   document.getElementById("plus").addEventListener(click,()=>{
   seconds + 1
 })
-document.getElementById("")
+document.getElementById("minus").addEventListener(click,()=>{
+  seconds-1
+})
 }
 
 window.setInterval(stopWatch,1000)
