@@ -22,3 +22,7 @@ function stopWatch(){
 
 window.setInterval(stopWatch,1000)
 
+function increment(){
+  
+}
+document.getElementById
