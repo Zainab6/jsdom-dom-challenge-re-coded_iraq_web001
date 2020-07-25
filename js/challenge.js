@@ -19,4 +19,4 @@ function stopWatch(){
   document.getElementById("counter").innerHTML = hours +":" + minutes + ":" + seconds;
 }
 
-window.setInterval
+window.setInterval(stopWatch,100)
