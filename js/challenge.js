@@ -22,8 +22,7 @@ function stopWatch(){
   seconds + 1
 })
 document.getElementById("minus").addEventListener(click,()=>{
-  if ( seconds >0){
-  seconds-1}
+  seconds-1
 })
 }
 
