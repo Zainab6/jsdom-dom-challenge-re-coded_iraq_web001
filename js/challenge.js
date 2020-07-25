@@ -22,4 +22,6 @@ function stopWatch(){
 
 window.setInterval(stopWatch,1000)
 
-document.getElementById("plus").addEventListener(click,)
+document.getElementById("plus").addEventListener(click,()=>{
+  
+})
