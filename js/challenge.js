@@ -16,12 +16,12 @@ function stopWatch(){
   }
   }
   
-  document.getElementById("counter").innerHTML = hours +":" + minutes + ":" + seconds;
-  
+  let counter = document.getElementById("counter")
+  counter.innerHTML = hours +":" + minutes + ":" + seconds;
+  document.getElementById("plus").addEventListener(click,()=>{
+  seconds++
+})
 }
 
 window.setInterval(stopWatch,1000)
 
-document.getElementById("plus").addEventListener(click,()=>{
-  seconds++
-})
