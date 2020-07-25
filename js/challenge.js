@@ -23,6 +23,6 @@ function stopWatch(){
 window.setInterval(stopWatch,1000)
 
 function increment(){
-  
+  seconds++
 }
-document.getElementById("plus")
+document.getElementById("plus").addEventListener(click,increment)
