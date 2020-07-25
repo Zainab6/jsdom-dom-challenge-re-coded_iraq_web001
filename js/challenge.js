@@ -21,3 +21,4 @@ function stopWatch(){
 }
 
 window.setInterval(stopWatch,1000)
+
