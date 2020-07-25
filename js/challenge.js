@@ -19,7 +19,7 @@ function stopWatch(){
   let counter = document.getElementById("counter")
   counter.innerHTML = hours +":" + minutes + ":" + seconds;
   document.getElementById("plus").addEventListener(click,()=>{
-  seconds++
+  seconds+1
 })
 }
 
