@@ -16,5 +16,7 @@ function stopWatch(){
   }
   }
   
-  document.getElementById("counter").innerHTML = hours +":" + minutes + ":" + seconds
+  document.getElementById("counter").innerHTML = hours +":" + minutes + ":" + seconds;
 }
+
+window.setInterval
